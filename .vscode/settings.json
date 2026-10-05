@@ -1,0 +1,18 @@
+{
+    "idf.currentSetup": "D:\\App\\Espressif\\.espressif\\v6.1\\esp-idf",
+    "idf.openOcdConfigs": [
+      "interface/ftdi/esp_ftdi.cfg",
+      "target/esp32.cfg"
+    ],
+    "idf.customExtraVars": {
+      "IDF_TARGET": "esp32"
+    },
+    "clangd.path": "D:\\App\\Espressif\\.espressif\\v6.1\\downloads\\esp-clangd\\esp-21.1.3_20260408\\esp-clangd\\bin\\clangd.exe",
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=d:\\Projects\\hilutronix_cyclocomp\\cyclocomp_esp32board\\cyclocomp_opentrail-port\\build"
+    ],
+    "idf.port": "COM3",
+    "idf.flashType": "UART"
+}
